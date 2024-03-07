@@ -8,7 +8,7 @@
     </td>
     <td>
       <p align="center"><b>Application Demo</b></p>
-      <img src="images/genwizard_gif.gif" alt="Demo" height="300">
+      <img src="images/genwizard_gif.gif" alt="Demo" height="250">
     </td>
   </tr>
 </table>
