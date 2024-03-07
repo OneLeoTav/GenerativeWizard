@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  myapp:
+    build:
+      context: .
+      dockerfile: Docker/Dockerfile
+    ports:
+      - "80:5000"
+    volumes:
+      - ./utils:/code/utils
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
