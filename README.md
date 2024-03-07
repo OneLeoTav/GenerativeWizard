@@ -1,5 +1,19 @@
 # GenerativeWizard
 
+<table align="center">
+  <tr>
+    <td align="center">
+      <p font-size="8px"><b>Image generated from the prompt <i>Painting of Manhattan, Van Gogh style</i></b></p>
+      <img src="images/Painting of Manhattan, Van Gogh style.png" alt="Sample Result" height="300" width="400" >
+    </td>
+    <td>
+      <p align="center"><b>Application Demo</b></p>
+      <img src="images/genwizard_gif.gif" alt="Demo" height="300">
+    </td>
+  </tr>
+</table>
+
+
 ### Overview of the Repository
 - `templates/`: Contains the `index.html` file, which defines the structure and overall layout of the web interface.
 - `static/`: Comprises both the `styles.css` and `javascript.js` files used for styling, animation and interactivity.
