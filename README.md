@@ -36,7 +36,7 @@
 
 **From Docker**
 1. Navigate to the Docker sub-directory `cd GenerativeWizard/Docker`
-2. Build the Docker image with the command: `docker build -t genwizardimage`
+2. Build the Docker image with the command: `docker build -t genwizardimage .`
 3. Launch the container using the command: `docker run -d --name genwizardcontainer -p 5000:80 genwizardimage`
 4. Acess the application at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 Alternatively, you can use the following command to leverage the `docker-compose.yml`file: `docker compuse up`. However, it is worth emphasizing that the creation of the image is pretty slow, especially the `RUN pip install --upgrade pip && pip install --no-cache-dir -r /code/requirements.txt` command, owing to the multiple sub-dependencies from Diffusers and PyTorch.
