@@ -17,12 +17,9 @@
 ### Overview of the Repository
 - `templates/`: Contains the `index.html` file, which defines the structure and overall layout of the web interface.
 - `static/`: Comprises both the `styles.css` and `javascript.js` files used for styling, animation and interactivity.
-- `utils/`: Directory containing utility files.
-    - `utils.py`: Encompasses essential functions and classes used throughout the application
-    - `setup.py`: Configuration file for packaging the utils module.
-- `Docker/`: Directory containing Docker-related files.
-        - `Dockerfile`: Provides instructions for building a Docker image to run the FastAPI web application.
-        - `docker-compose.yml`: Specifies the configuration for running the application with Docker Compose.
+- `utils/`: Directory containing utility files: on the one hand, `utils.py` encompasses essential functions and classes used throughout the application and, on the other hand, `setup.py` accounts for the configuration file for packaging the utils module.
+- `Dockerfile`: Provides instructions for building a Docker image to run the FastAPI web application.
+- `docker-compose.yml`: Specifies the configuration for running the application with Docker Compose.
 - `main.py`: Contains the code for the server-side logic of the FastAPI application.
 - `requirements.txt`: Lists all the necessary libraries and dependencies required to run the FastAPI web application.
 
