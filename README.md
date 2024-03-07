@@ -14,13 +14,13 @@
 
 
 ### How to run?
-**From terminal**\
+**From terminal**
 1. Clone the project repository: `git clone https://github.com/OneLeoTav/GenerativeWizard.git`
 2. Navigate to the root of the directory `cd GenerativeWizard/`
 3. Run `uvicorn --reload main:app`
 4. Open your preferred web brower and access the application at http://[127.0.0.1:8000](http://127.0.0.1:8000/). It might take a few minutes to load, as the image genration pipeline needs to be loaded (once) for the first time.
 
-**From Docker**\
+**From Docker**
 1. Navigate to the Docker sub-directory `cd GenerativeWizard/Docker`
 2. Build the Docker image with the command: `docker build -t genwizardimage`
 3. Launch the container using the command: `docker run -d --name genwizardcontainer -p 5000:80 genwizardimage`
