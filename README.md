@@ -39,7 +39,7 @@
 Alternatively, you can use the following command to leverage the `docker-compose.yml`file: `docker compuse up`. However, it is worth emphasizing that the creation of the image is pretty slow, especially the `RUN pip install --upgrade pip && pip install --no-cache-dir -r /code/requirements.txt` command, owing to the multiple sub-dependencies from Diffusers and PyTorch.
 
 ## Project Outline
-GenerativeWizard is aa text-to-image Web application. Powered by the [runwayml/stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5) model, the interface returns the image generated from the user prompt, which you can then download. However, you better be equipped with a GPU, or else you have enough time to pour yourself a cup of tea while waiting for the image to be generated (c. 10 minutes with Intel Core i5 CPUs).
+GenerativeWizard is a text-to-image Web application. Powered by the [runwayml/stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5) model, the interface returns the image generated from the user prompt, which you can then download. However, you better be equipped with a GPU, or else you have enough time to pour yourself a cup of tea while waiting for the image to be generated (c. 10 minutes with Intel Core i5 CPUs).
 
 
 ### Main Features
