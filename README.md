@@ -29,7 +29,7 @@
 1. Clone the project repository: `git clone https://github.com/OneLeoTav/GenerativeWizard.git`
 2. Navigate to the root of the directory `cd GenerativeWizard/`
 3. Run `uvicorn --reload main:app`
-4. Open your preferred web brower and access the application at http://[127.0.0.1:8000](http://127.0.0.1:8000/). It might take a few minutes to load, as the image genration pipeline needs to be loaded (once) for the first time.
+4. Open your preferred web brower and access the application at [http://127.0.0.1:8000](http://127.0.0.1:8000/). It might take a few minutes to load, as the image genration pipeline needs to be loaded (once) for the first time.
 
 **From Docker**
 1. Navigate to the Docker sub-directory `cd GenerativeWizard/Docker`
